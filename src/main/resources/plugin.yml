@@ -1,0 +1,4 @@
+name: NClash
+version: '${project.version}'
+main: com.github.nindroida.nclash.NClash
+api-version: '1.20'
