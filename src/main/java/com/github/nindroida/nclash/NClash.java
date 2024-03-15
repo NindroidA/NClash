@@ -3,12 +3,8 @@ package com.github.nindroida.nclash;
 import com.github.nindroida.nclash.commands.CommandManager;
 import com.github.nindroida.nclash.enchantments.CustomEnchantmentListener;
 import com.github.nindroida.nclash.items.potions.listeners.SkeletonListener;
-import org.bukkit.command.PluginIdentifiableCommand;
-import org.bukkit.plugin.Plugin;
 import org.bukkit.plugin.java.JavaPlugin;
-import com.Zrips.CMI.CMI;
 
-import java.util.Arrays;
 
 public final class NClash extends JavaPlugin {
 
