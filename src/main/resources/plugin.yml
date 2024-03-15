@@ -2,3 +2,9 @@ name: NClash
 version: '${project.version}'
 main: com.github.nindroida.nclash.NClash
 api-version: '1.20'
+depend: [CMI]
+commands:
+  clash:
+    description: Base command for NClash
+    usage: /clash
+    aliases: [nc, nclash]
