@@ -9,22 +9,10 @@ import java.util.List;
 
 public class CustomEnchantmentUtils {
 
-    // converts level number to roman numerals
-    public static String romanNumerals(int level) {
-        switch (level) {
-            case 1: return "I";
-            case 2: return "II";
-            case 3: return "III";
-            case 4: return "IV";
-            case 5: return "V";
-            default: return Integer.toString(level);
-        }
-    }
-
     public static void addCustomEnchantment(ItemStack item, String name, int level) {
         ItemMeta meta = item.getItemMeta();
         if (meta != null) {
-            String enchantText = ChatColor.AQUA + name + " " + romanNumerals(level);
+            String enchantText = ChatColor.AQUA + name + " ";
             List<String> lore = meta.hasLore() ? meta.getLore() : new ArrayList<>();
             if (lore != null) {
                 lore.add(enchantText);

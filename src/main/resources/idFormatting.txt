@@ -1,0 +1,18 @@
+OKAY BASTARD SO
+
+The ID has 7 digits.
+First 3 (plugin id): 545
+Next 1: (item id):
+    - TBD: 1
+    - TBD: 2
+    - TBD: 3
+    - Currency: 4
+    - TBD: 5
+    - TBD: 6
+    - TBD: 7
+    - TBD: 8
+    - Potions: 9
+Next 3: (item number): 000
+
+EXAMPLE TIME HE HE HE HA:
+the itemID i set for the coin is: 5454001

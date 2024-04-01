@@ -1,6 +1,5 @@
 package com.github.nindroida.nclash.enchantments;
 
-import com.Zrips.CMI.CMI;
 import com.github.nindroida.nclash.NClash;
 import com.github.nindroida.nclash.items.weapons.TestItem;
 import org.bukkit.entity.Player;
@@ -15,7 +14,7 @@ import org.bukkit.inventory.meta.ItemMeta;
 import java.util.List;
 
 public class CustomEnchantmentListener implements Listener {
-    private NClash plugin = NClash.getInstance();
+    private final NClash plugin = NClash.getInstance();
 
     /*@EventHandler
     public void onPlayerUse(PlayerInteractEvent event) {

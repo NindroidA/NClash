@@ -1,0 +1,111 @@
+lightning:
+  name: "Lightning Spell"
+  color: "0073FF"
+  lore: "Electrocute your enemies with a bolt of lightning!"
+  splash: true
+  maxLevel: 3
+  id: 5459001
+
+healing:
+  name: "Healing Spell"
+  color: "F5D74B"
+  lore: "Heal yourself to keep you fighting!"
+  splash: false
+  maxLevel: 4
+  id: 5459002
+
+rage:
+  name: "Rage Spell"
+  color: "AA28D7"
+  lore: "Enrage yourself to make you bigger, faster, and stronger!"
+  splash: false
+  maxLevel: 3
+  id: 5459003
+
+jump:
+  name: "Jump Spell"
+  color: "50FF32"
+  lore: "Make yourself jump over obstacles and enemies!"
+  splash: false
+  maxLevel: 2
+  id: 5459004
+
+freeze:
+  name: "Freeze Spell"
+  color: "50C8FF"
+  lore: "When the battle gets hot, stay frosty by freezing your enemies!"
+  splash: true
+  maxLevel: 3
+  id: 5459005
+
+clone:
+  name: "Clone Spell"
+  color: "19D2CD"
+  lore: "When the battle gets hot, stay frosty by freezing your enemies!"
+  splash: false
+  maxLevel: 2
+  id: 5459006
+
+invisibility:
+  name: "Invisibility Spell"
+  color: "7DF0A0"
+  lore: "Like the normal Invisibility Potion, but better!"
+  splash: false
+  maxLevel: 2
+  id: 5459007
+
+poison:
+  name: "Poison Spell"
+  color: "FF9605"
+  lore: "Give yourself the upper hand against enemies with this deadly poison!"
+  splash: true
+  maxLevel: 3
+  id: 5459008
+
+earthquake:
+  name: "Earthquake Spell"
+  color: "8F4D31"
+  lore: "Weaken the battlefield with crippling earthquake explosions!"
+  splash: true
+  maxLevel: 3
+  id: 5459009
+
+haste:
+  name: "Haste Spell"
+  color: "F05096"
+  lore: "Put some hustle and get your steps in!"
+  splash: false
+  maxLevel: 4
+  id: 5459010
+
+skeleton:
+  name: "Skeleton Spell"
+  color: "E10F00"
+  lore: "Summon an army of Skeletons to aid you in battle!"
+  splash: true
+  maxLevel: 5
+  id: 5459011
+
+bat:
+  name: "Bat Spell"
+  color: "6419AF"
+  lore: "Summon an army of Bats to aid you in battle!"
+  splash: true
+  maxLevel: 3
+  id: 5459012
+
+vex:
+  name: "Vex Spell"
+  color: "AAD7EB"
+  lore: "Summon an army of Vexes to aid you in battle!"
+  splash: true
+  maxLevel: 2
+  id: 5459013
+
+overgrowth:
+  name: "Overgrowth Spell"
+  color: "72A724"
+  lore: "Traps nearby objects in tough roots"
+  splash: true
+  maxLevel: 1
+  id: 5459014

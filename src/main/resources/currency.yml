@@ -1,0 +1,17 @@
+coin:
+  name: "Gold Coin"
+  color: "F1D412"
+  material: "GOLD_NUGGET"
+  id: 5454001
+
+elixir:
+  name: "Elixir Bottle"
+  color: "C340D6"
+  material: "DRAGON_BREATH"
+  id: 5454002
+
+gem:
+  name: "Gem"
+  color: "32EB19"
+  material: "EMERALD"
+  id: 5454003

@@ -8,3 +8,19 @@ commands:
     description: Base command for NClash
     usage: /clash
     aliases: [nc, nclash]
+nclash.*:
+  description: Gives access to all NClash commands
+  default: op
+  children:
+    nclash.main: true
+    nclash.getCurrency: true
+    nclash.getPotion: true
+nclash.main:
+  description: Allows the use of the `/clash` base command
+  default: op
+nclash.getCurrency:
+  description: Allows the use of the `/clash getCurrency` command
+  default: op
+nclash.getPotion:
+  description: Allows the use of the `/clash getPotion` command
+
