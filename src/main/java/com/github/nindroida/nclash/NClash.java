@@ -1,9 +1,8 @@
 package com.github.nindroida.nclash;
 
 import com.github.nindroida.nclash.commands.CommandManager;
-import com.github.nindroida.nclash.commands.TabCompleteManager;
 import com.github.nindroida.nclash.enchantments.CustomEnchantmentListener;
-import com.github.nindroida.nclash.items.potions.SplashListener;
+import com.github.nindroida.nclash.items.potions.PotionListener;
 import com.github.nindroida.nclash.utils.MiscUtils;
 import com.github.nindroida.nclash.utils.Msg;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -30,7 +29,7 @@ public final class NClash extends JavaPlugin {
 
         // register listeners
         new CustomEnchantmentListener();
-        new SplashListener();
+        new PotionListener();
 
 
     }

@@ -4,7 +4,11 @@ import com.github.nindroida.nclash.NClash;
 import net.Zrips.CMILib.Colors.CMIChatColor;
 import org.bukkit.ChatColor;
 import org.bukkit.Color;
+import org.bukkit.Location;
+import org.bukkit.block.Block;
 import org.bukkit.plugin.Plugin;
+
+import java.util.ArrayList;
 
 public class MiscUtils {
     /**
@@ -51,5 +55,27 @@ public class MiscUtils {
      */
     public static CMIChatColor getColor(String color) {
         return CMIChatColor.getClosest(color);
+    }
+
+    /**
+     * getBlocks
+     *
+     * gets the blocks in the desired radius (idk how to word this one)
+     *
+     * @param start the starting block
+     * @param radius the radius of blocks you want to get
+     * @return list of blocks in the inputted radius
+     */
+    public static ArrayList<Block> getBlocks(Block start, int radius){
+        ArrayList<Block> blocks = new ArrayList<>();
+        for(double x = start.getLocation().getX() - radius; x <= start.getLocation().getX() + radius; x++){
+            for(double y = start.getLocation().getY() - radius; y <= start.getLocation().getY() + radius; y++){
+                for(double z = start.getLocation().getZ() - radius; z <= start.getLocation().getZ() + radius; z++){
+                    Location loc = new Location(start.getWorld(), x, y, z);
+                    blocks.add(loc.getBlock());
+                }
+            }
+        }
+        return blocks;
     }
 }
